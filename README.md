@@ -5,18 +5,13 @@
 ![image 1 (1)](https://user-images.githubusercontent.com/114420790/201217071-4fac7d68-ed54-4b41-a32e-857052025324.png)
 ----
 
-## REPO NAME  
+## Repo Notation:   
 
-### **PP**  
-+ Personal Project  
++ **PP** - Personal Project  
   
-### **BL**  
-+ Backend Learning  
++ **BL** - Backend Learning  
   
-### **DevOpsL**  
-+ DevOps Learning  
++ **DevOpsL** - DevOps Learning  
   
-### **CA**  
-+  Clean Architecture  
-  
++ **CA** - Clean Architecture  
 ----
