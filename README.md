@@ -28,12 +28,33 @@ If I just code the app and them put it on this CI/CD pipeline, I´ll not achieve
 
 ## Continuous Integration - CI  
 
-### + At CI I must check the lint and run the unit tests on every commit to dev branch.  
+### At CI I must check the lint and run the unit tests on every commit to dev branch.  
 
 +  For that, I´ll be creating a Github Action that does that.
  + Runs the lint 
  + Runs the tests  
- 
+
+ # Learning how GitHub Action Works  
+
+## .github Folder 
+
++ First thing we must know, is that Github Actions looks for a .github folder inside your project.  
+
+So, lets create it with bash command: 
+
+``` mkdir .github ```
+
+Now, lets push to main branch.
+
+``` 
+ > git add . 
+ > git commit -m "creating .github folder as Github Action requires" 
+ > git push o main
+
+
+```
+
+
 
 
 ## Clean Architecture - Entities  
