@@ -65,6 +65,7 @@ That´s it. We now are able to create our github actions just by addind YAML fil
 Lets create our first action by creating an YAML file inside workflows folder.
 
 ```
+>cd workflows
 > touch test.yml 
 
 ```
