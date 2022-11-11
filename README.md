@@ -84,12 +84,28 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 
 ## Learning YAML Syntax
 
++ **Basic Syntax**
+
 ```
+> // JSON
+> //identation doesn´t matter
+>   {
+>        "name": "myname",
+>        "age": "myage",
+>       "address": "myAddress"
+>   }
 >
+> // YAML
+> //At YAML , identation is very import as it is for python!
 >
+> name:myname
+> age:myage
+> address:myaddress
 >
 
 ```
++ **
+
 
 As you can see, creating a github action is very ease!
 So, the thruth is that GitHub actions is all about knowing how to create YAML files with the right configurations!
