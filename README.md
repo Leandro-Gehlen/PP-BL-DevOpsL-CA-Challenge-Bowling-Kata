@@ -85,7 +85,11 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 ## Learning YAML Syntax
 
 ```
+>
+>
+>
 
+```
 
 As you can see, creating a github action is very ease!
 So, the thruth is that GitHub actions is all about knowing how to create YAML files with the right configurations!
