@@ -36,7 +36,7 @@ If I just code the app and them put it on this CI/CD pipeline, I´ll not achieve
 
  # Learning how GitHub Action Works  
 
-## .github Folder 
+## .github and workflows Folders
 
 + First thing we must know, is that Github Actions looks for a .github folder inside your project.  
 
@@ -124,7 +124,60 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 >   address:myaddress
 >
 ```
-+ **Some**
++ **Comments / Arrays / Data Types in YAML**  
+
+```
+> //JSON
+> // JON can not have comments
+> {
+>   "first-level-param": {
+>        "name": "myname",
+>        "age": "myage",
+>        "address": "myAddress" ,
+>        "randomArray": [1,2,3,4,5,6], 
+>        "randomArray-of-Objects":[ 
+>               {
+>                  "key1": "value1",
+>                  "another-key1":"another-value1",
+>                  "key1-again": "value1-again",
+>                  "last-key1":"last-value1"
+>                },
+>                {
+>                   "key2": "value2",
+>                   "another-key2":"another-value2",
+>                   "key2-again": "value2-again",
+>                   "last-key2":"last-value2"
+>                },
+>                {
+>                   "key3":"value3",
+>                },
+>                {
+>                   "key4":"value4"
+>            ]
+>      
+> }
+>
+> //YAML 
+> //At YAML you can have comments by using the # symbol
+> 
+> first-level-param:  #This is a YAML comment
+>   name:myname
+>   age:myage
+>   address:myaddress
+    randomArra: [1,2,3,4,5,6] # At YAML you can have arrays just like json, but...
+>   randomArray-of-Objects: 
+        -key1: value1    # At YAML , the - represents the start of an array element.
+>        another-key1:another-value1
+>        key1-again: value1-again
+>        last-key1:last-value1
+>       -key2: value2   # new item of the array
+>        another-key2 : "another-value2"  # At YAML , you can write strings with double quote, single quote, and no quote.
+>        key2-again : 'value2-again'
+>        last-key2 : true
+>       -key3:value3
+>       -key4: value4  #Last item of the array.
+>          
+```
 
 As you can see, creating a github action is very ease!
 So, the thruth is that GitHub actions is all about knowing how to create YAML files with the right configurations!
