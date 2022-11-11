@@ -127,6 +127,7 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 + **Comments / Arrays / Data Types in YAML**  
 
 ```
+
 > //JSON
 > // JON can not have comments
 > {
@@ -164,9 +165,9 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 >   name:myname
 >   age:myage
 >   address:myaddress
-    randomArra: [1,2,3,4,5,6] # At YAML you can have arrays just like json, but...
+>   randomArra: [1,2,3,4,5,6] # At YAML you can have arrays just like json, but...
 >   randomArray-of-Objects: 
-        -key1: value1    # At YAML , the - represents the start of an array element.
+>        -key1: value1    # At YAML , the - represents the start of an array element.
 >        another-key1:another-value1
 >        key1-again: value1-again
 >        last-key1:last-value1
@@ -176,7 +177,15 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 >        last-key2 : true
 >       -key3:value3
 >       -key4: value4  #Last item of the array.
->          
+>       -key5: |  
+>           over here
+>           you can have a 
+>           multiple line
+>           string 
+>           because you used the | (pipe) 
+>           That´s how you write multiple lines strings on YAML
+>
+
 ```
 
 ## YAML Validation - www.yamllint.com and Others on Google  
