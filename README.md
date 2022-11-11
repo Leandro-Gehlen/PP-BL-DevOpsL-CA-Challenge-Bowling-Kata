@@ -74,7 +74,28 @@ Lets create our first action by creating an YAML file inside workflows folder.
 > git commit -m "workflows folder created inside .github folder as required for Github Actions.Also I´ve created an YAML file called test.yml"
 > git push o main
 ```
-## Next step
+## THE YAML file 
+
+What YAML mean? 
++ YAML is not a makup language 
++ Yet another markup language
+
+YAML is very similar to JSON files, but it uses identation. It´s also a data file that transfer data between systems.But YAML is more complex then JSON.
+
+## Learning YAML Syntax
+
+```
+
+
+As you can see, creating a github action is very ease!
+So, the thruth is that GitHub actions is all about knowing how to create YAML files with the right configurations!
+
+So, for now on, it´s not yaml file, it´s THE YAML file!
+Because it is the action it self.
+
+## Learning about THE YAML file options
+
+ 
 
 ## Clean Architecture - Entities  
 
