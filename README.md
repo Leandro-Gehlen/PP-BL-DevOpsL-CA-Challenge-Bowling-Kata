@@ -50,12 +50,21 @@ Now, lets push to main branch.
  > git add . 
  > git commit -m "creating .github folder as Github Action requires" 
  > git push o main
-
-
 ```
 
+Inside .github folder, we must create oneother folder called workflows.
+Every YAML file that will be in this workflows folder will be an action of github action.
 
+```
+> cd .github 
+> mkdir workflows
+> git add .
+> git commit -m "wrokflows folder created inside .github folder as required for Github Actions."
+> git push o main
+```
+That´s it. We now are able to create our github actions just by addind YAML files on the workflows folder!
 
+## Next step
 
 ## Clean Architecture - Entities  
 
