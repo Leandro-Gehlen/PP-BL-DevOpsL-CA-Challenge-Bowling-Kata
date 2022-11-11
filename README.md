@@ -192,7 +192,7 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 
 + When you are writing YAML files, it´s nice to have a validator open so you can verify is your YAML file is well written.  
 
-[](https://www.yamllint.com)  
+[Another YAML validator found online](https://codebeautify.org/yaml-validator)  
 
 ## Other
 
