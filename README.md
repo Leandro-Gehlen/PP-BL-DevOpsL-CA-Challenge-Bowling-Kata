@@ -58,12 +58,21 @@ Every YAML file that will be in this workflows folder will be an action of githu
 ```
 > cd .github 
 > mkdir workflows
-> git add .
-> git commit -m "wrokflows folder created inside .github folder as required for Github Actions."
-> git push o main
+
 ```
 That´s it. We now are able to create our github actions just by addind YAML files on the workflows folder!
 
+Lets create our first action by creating an YAML file inside workflows folder.
+
+```
+> touch test.yml 
+
+```
+```
+> git add .
+> git commit -m "workflows folder created inside .github folder as required for Github Actions.Also I´ve created an YAML file called test.yml"
+> git push o main
+```
 ## Next step
 
 ## Clean Architecture - Entities  
