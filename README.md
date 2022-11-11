@@ -179,6 +179,14 @@ YAML is very similar to JSON files, but it uses identation. It´s also a data fi
 >          
 ```
 
+## YAML Validation - www.yamllint.com and Others on Google  
+
++ When you are writing YAML files, it´s nice to have a validator open so you can verify is your YAML file is well written.  
+
+[](https://www.yamllint.com)  
+
+## Other
+
 As you can see, creating a github action is very ease!
 So, the thruth is that GitHub actions is all about knowing how to create YAML files with the right configurations!
 
